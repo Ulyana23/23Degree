@@ -1,29 +1,29 @@
 @mixin black {
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: 900!important;
 }
 
 @mixin bold {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 700!important;
 }
 
 @mixin medium {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 400!important;
 }
 
 @mixin regular {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 400!important;
 }
 
 @mixin light {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 300!important;
 }
 
 @mixin thin {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 100!important;
 }

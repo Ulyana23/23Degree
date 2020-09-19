@@ -530,13 +530,13 @@ body {
 
     .button__group {
       text-transform: uppercase;
-      @include light();
       font-size: 14px;
       label {
         background: none;
         color: #19b5fe;
         border: 1px #19b5fe solid;
         box-shadow: none!important;
+        @include light();
 
         padding: 15px 18px;
       }

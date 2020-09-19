@@ -17,7 +17,6 @@
 }
 
 @mixin title() {
-  @include light();
   color: #363636;
 
   position: relative;
@@ -39,12 +38,12 @@
 
   h3 {
     font-size: 36px;
+    @include light();
   }
 }
 
 @mixin titleWhite() {
   font-size: 36px;
-  @include light();
   color: #ffffff;
 
   position: relative;
@@ -66,6 +65,7 @@
 
   h3 {
     font-size: 36px;
+    @include light();
   }
 
 }

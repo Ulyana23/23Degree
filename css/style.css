@@ -32,7 +32,7 @@ body {
   display: inline-block;
   font-size: 34px;
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  font-weight: 900 !important;
   color: #ffffff;
   vertical-align: middle;
   margin-left: 10px;
@@ -69,12 +69,12 @@ body {
 }
 .intro .header__inner .intro__phone .phone__text-block .phone__text {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 12px;
 }
 .intro .header__inner .intro__phone .phone__text-block .phone__number {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 21px;
 }
 .intro .header__inner .intro__menu {
@@ -117,7 +117,7 @@ body {
 }
 .intro .header__inner .intro__menu .menu__text {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   text-transform: uppercase;
   font-size: 12px;
   color: #ffffff;
@@ -153,7 +153,7 @@ body {
 }
 .intro .intro__text .intro__title {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 .intro .intro__text .intro__title h1 {
   font-size: 48px;
@@ -165,7 +165,7 @@ body {
 .intro .intro__text p {
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 22px;
 }
 .intro .intro__form {
@@ -190,7 +190,7 @@ body {
   border: none;
   border-radius: 25px;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 13px;
 }
 .intro .intro__form form .intro__inputs input::-webkit-input-placeholder {
@@ -220,7 +220,7 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -245,7 +245,7 @@ body {
   text-align: center;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 14px;
   margin-top: 20px;
 }
@@ -297,8 +297,6 @@ body {
   padding-bottom: 50px;
 }
 .services .services__inner .services__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -316,6 +314,8 @@ body {
 }
 .services .services__inner .services__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .services .services__inner .services__examples .example {
   padding-bottom: 20px;
@@ -328,13 +328,13 @@ body {
 .services .services__inner .services__examples .text__inner .title {
   color: #19b5fe;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 28px;
 }
 .services .services__inner .services__examples .text__inner p {
   color: #464646;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 100 !important;
   font-size: 18px;
   padding-top: 3px;
 }
@@ -344,7 +344,7 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -373,8 +373,6 @@ body {
 }
 .calculator .calculator__text .calculator__title {
   font-size: 36px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #ffffff;
   position: relative;
   margin-bottom: 40px;
@@ -392,11 +390,13 @@ body {
 }
 .calculator .calculator__text .calculator__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .calculator .calculator__text p {
   font-size: 26px;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 .calculator .calculator__items {
   padding-top: 40px;
@@ -409,7 +409,7 @@ body {
 }
 .calculator .calculator__items .rectangle .title {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 20px;
 }
 .calculator .calculator__items .rectangle.rectangle__bottom {
@@ -443,7 +443,7 @@ body {
 }
 .calculator .calculator__items .result .result__item {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   padding-bottom: 8px;
 }
 .calculator .calculator__items .result .result__item .name {
@@ -458,7 +458,7 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -473,12 +473,12 @@ body {
 }
 .calculator .calculator__items .result .phone__number .text {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 14px;
 }
 .calculator .calculator__items .result .phone__number .phone__number {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 18px;
 }
 
@@ -486,8 +486,6 @@ body {
   padding: 60px 0;
 }
 .portfolio .portfolio__inner .portfolio__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -505,11 +503,11 @@ body {
 }
 .portfolio .portfolio__inner .portfolio__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .portfolio .portfolio__inner .button__group {
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   font-size: 14px;
 }
 .portfolio .portfolio__inner .button__group label {
@@ -517,6 +515,8 @@ body {
   color: #19b5fe;
   border: 1px #19b5fe solid;
   box-shadow: none !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
   padding: 15px 18px;
 }
 .portfolio .portfolio__inner .button__group label:first-child {
@@ -548,8 +548,6 @@ body {
   padding-bottom: 65px;
 }
 .better .better__inner .better__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -567,6 +565,8 @@ body {
 }
 .better .better__inner .better__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .better .better__inner .better__item {
   margin-bottom: 30px;
@@ -595,15 +595,13 @@ body {
   color: #3f3f3f;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .process .process__inner {
   padding: 65px 0;
 }
 .process .process__inner .process__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -621,6 +619,8 @@ body {
 }
 .process .process__inner .process__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .process .process__inner .process__content .image {
   width: 100%;
@@ -636,7 +636,7 @@ body {
 .process .process__inner .process__content .text p {
   margin: auto;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 30px;
   color: #464646;
 }
@@ -648,8 +648,6 @@ body {
   padding: 65px 0;
 }
 .slider .slider__inner .slider__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -667,6 +665,8 @@ body {
 }
 .slider .slider__inner .slider__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .slider .slider__inner .slider__content .slider__nav {
   overflow-x: scroll;
@@ -716,8 +716,6 @@ body {
   padding: 65px 0;
 }
 .team .team__inner .team__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -735,6 +733,8 @@ body {
 }
 .team .team__inner .team__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .team .team__inner .team__content .team__item {
   padding-bottom: 45px;
@@ -747,7 +747,7 @@ body {
 }
 .team .team__inner .team__content .team__text {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   margin-top: 20px;
 }
 .team .team__inner .team__content .team__text .title {
@@ -793,22 +793,22 @@ body {
 }
 .quote .quote__inner blockquote .quote__text .title {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 30px;
 }
 .quote .quote__inner blockquote .quote__text p {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 18px;
 }
 .quote .quote__inner blockquote .quote__text .signature .name {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 18px;
 }
 .quote .quote__inner blockquote .quote__text .signature .post {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 16px;
 }
 
@@ -819,8 +819,6 @@ body {
   padding: 65px 0;
 }
 .blog .blog__inner .blog__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -838,6 +836,8 @@ body {
 }
 .blog .blog__inner .blog__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .blog .blog__inner .blog__content .blog__item .blog__photo img {
   width: 100%;
@@ -848,7 +848,7 @@ body {
 .blog .blog__inner .blog__content .blog__item .blog__text a {
   color: #19b5fe;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 18px;
   text-decoration: none;
 }
@@ -867,8 +867,6 @@ body {
 }
 .questions .questions__inner .questions__title {
   font-size: 36px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #ffffff;
   position: relative;
   margin-bottom: 40px;
@@ -886,11 +884,13 @@ body {
 }
 .questions .questions__inner .questions__title h3 {
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 .questions .questions__inner p {
   font-size: 26px;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 .questions .questions__inner .questions__content {
   margin-top: 40px;
@@ -949,7 +949,7 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -973,13 +973,13 @@ body {
 .questions .questions__inner .questions__content .questions__contacts .contacts__item .text {
   display: inline-block;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
   margin-left: 10px;
   font-size: 18px;
 }
 .questions .questions__inner .questions__content .questions__contacts .schedule {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -1011,7 +1011,7 @@ body {
   display: block;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 14px;
   transition: opacity linear 0.1s;
   padding-bottom: 5px;
@@ -1023,7 +1023,7 @@ body {
 }
 .footer .footer__inner .footer__up .footer__social-network .text {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 14px;
 }
 .footer .footer__inner .footer__up .footer__social-network .icons {
@@ -1054,7 +1054,7 @@ body {
 .footer .footer__inner .footer__bottom .copyright {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 .footer .footer__inner .footer__bottom .creator {
   display: flex;
@@ -1063,7 +1063,7 @@ body {
 }
 .footer .footer__inner .footer__bottom .creator .text {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 300 !important;
   font-size: 14px;
 }
 .footer .footer__inner .footer__bottom .creator .logo {
