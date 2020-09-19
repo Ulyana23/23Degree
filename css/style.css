@@ -31,7 +31,8 @@ body {
 .intro .header__inner .intro__logo .intro__logo--text {
   display: inline-block;
   font-size: 34px;
-  font-family: "Roboto Black";
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   color: #ffffff;
   vertical-align: middle;
   margin-left: 10px;
@@ -67,11 +68,13 @@ body {
   line-height: 24px;
 }
 .intro .header__inner .intro__phone .phone__text-block .phone__text {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 12px;
 }
 .intro .header__inner .intro__phone .phone__text-block .phone__number {
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 21px;
 }
 .intro .header__inner .intro__menu {
@@ -113,7 +116,8 @@ body {
   transform: translate(0, -50%);
 }
 .intro .header__inner .intro__menu .menu__text {
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 12px;
   color: #ffffff;
@@ -148,7 +152,7 @@ body {
   text-align: center;
 }
 .intro .intro__text .intro__title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 .intro .intro__text .intro__title h1 {
@@ -160,7 +164,8 @@ body {
 }
 .intro .intro__text p {
   margin-top: 30px;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 .intro .intro__form {
@@ -184,7 +189,8 @@ body {
   padding: 0 27px;
   border: none;
   border-radius: 25px;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 13px;
 }
 .intro .intro__form form .intro__inputs input::-webkit-input-placeholder {
@@ -213,7 +219,8 @@ body {
   background: #19b5fe;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -237,7 +244,8 @@ body {
 .intro .footnote {
   text-align: center;
   color: #ffffff;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 14px;
   margin-top: 20px;
 }
@@ -289,7 +297,8 @@ body {
   padding-bottom: 50px;
 }
 .services .services__inner .services__title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -318,12 +327,14 @@ body {
 }
 .services .services__inner .services__examples .text__inner .title {
   color: #19b5fe;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 28px;
 }
 .services .services__inner .services__examples .text__inner p {
   color: #464646;
-  font-family: "Roboto Thin";
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
   font-size: 18px;
   padding-top: 3px;
 }
@@ -332,7 +343,8 @@ body {
   background: #19b5fe;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -361,7 +373,8 @@ body {
 }
 .calculator .calculator__text .calculator__title {
   font-size: 36px;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #ffffff;
   position: relative;
   margin-bottom: 40px;
@@ -382,7 +395,8 @@ body {
 }
 .calculator .calculator__text p {
   font-size: 26px;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 .calculator .calculator__items {
   padding-top: 40px;
@@ -394,7 +408,7 @@ body {
   padding: 15px 22px;
 }
 .calculator .calculator__items .rectangle .title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
@@ -428,7 +442,7 @@ body {
   transition: all 0.2s linear;
 }
 .calculator .calculator__items .result .result__item {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   padding-bottom: 8px;
 }
@@ -443,7 +457,8 @@ body {
   background: #19b5fe;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -457,11 +472,13 @@ body {
   margin-top: 20px;
 }
 .calculator .calculator__items .result .phone__number .text {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 14px;
 }
 .calculator .calculator__items .result .phone__number .phone__number {
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 18px;
 }
 
@@ -469,7 +486,8 @@ body {
   padding: 60px 0;
 }
 .portfolio .portfolio__inner .portfolio__title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -490,7 +508,8 @@ body {
 }
 .portfolio .portfolio__inner .button__group {
   text-transform: uppercase;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 14px;
 }
 .portfolio .portfolio__inner .button__group label {
@@ -529,7 +548,8 @@ body {
   padding-bottom: 65px;
 }
 .better .better__inner .better__title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -574,14 +594,16 @@ body {
   margin-top: 40px;
   color: #3f3f3f;
   font-size: 14px;
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .process .process__inner {
   padding: 65px 0;
 }
 .process .process__inner .process__title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -613,7 +635,8 @@ body {
 }
 .process .process__inner .process__content .text p {
   margin: auto;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 30px;
   color: #464646;
 }
@@ -625,7 +648,8 @@ body {
   padding: 65px 0;
 }
 .slider .slider__inner .slider__title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -692,7 +716,8 @@ body {
   padding: 65px 0;
 }
 .team .team__inner .team__title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -721,7 +746,8 @@ body {
   width: 100%;
 }
 .team .team__inner .team__content .team__text {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   margin-top: 20px;
 }
 .team .team__inner .team__content .team__text .title {
@@ -766,19 +792,23 @@ body {
   right: 0;
 }
 .quote .quote__inner blockquote .quote__text .title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 30px;
 }
 .quote .quote__inner blockquote .quote__text p {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 18px;
 }
 .quote .quote__inner blockquote .quote__text .signature .name {
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 18px;
 }
 .quote .quote__inner blockquote .quote__text .signature .post {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -789,7 +819,8 @@ body {
   padding: 65px 0;
 }
 .blog .blog__inner .blog__title {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #363636;
   position: relative;
   margin-bottom: 60px;
@@ -816,7 +847,8 @@ body {
 }
 .blog .blog__inner .blog__content .blog__item .blog__text a {
   color: #19b5fe;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 18px;
   text-decoration: none;
 }
@@ -835,7 +867,8 @@ body {
 }
 .questions .questions__inner .questions__title {
   font-size: 36px;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: #ffffff;
   position: relative;
   margin-bottom: 40px;
@@ -856,7 +889,8 @@ body {
 }
 .questions .questions__inner p {
   font-size: 26px;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 .questions .questions__inner .questions__content {
   margin-top: 40px;
@@ -914,7 +948,8 @@ body {
   background: #19b5fe;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   outline-style: none;
   padding: 20px 50px;
   border-radius: 30px;
@@ -937,12 +972,14 @@ body {
 }
 .questions .questions__inner .questions__content .questions__contacts .contacts__item .text {
   display: inline-block;
-  font-family: "Roboto Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   margin-left: 10px;
   font-size: 18px;
 }
 .questions .questions__inner .questions__content .questions__contacts .schedule {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -973,7 +1010,8 @@ body {
 .footer .footer__inner .footer__up .footer__nav .footer__nav--col a {
   display: block;
   color: #ffffff;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 14px;
   transition: opacity linear 0.1s;
   padding-bottom: 5px;
@@ -984,7 +1022,8 @@ body {
   opacity: 0.8;
 }
 .footer .footer__inner .footer__up .footer__social-network .text {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 14px;
 }
 .footer .footer__inner .footer__up .footer__social-network .icons {
@@ -1014,7 +1053,8 @@ body {
 }
 .footer .footer__inner .footer__bottom .copyright {
   font-size: 14px;
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 .footer .footer__inner .footer__bottom .creator {
   display: flex;
@@ -1022,7 +1062,8 @@ body {
   padding-right: 140px;
 }
 .footer .footer__inner .footer__bottom .creator .text {
-  font-family: "Roboto Light";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 14px;
 }
 .footer .footer__inner .footer__bottom .creator .logo {
