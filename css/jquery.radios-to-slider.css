@@ -1,0 +1,124 @@
+.radios-to-slider {
+    background-color: rgba(255, 255, 255, 0.502);
+    display: block;
+    position: relative;
+    margin-bottom: 80px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.radios-to-slider.medium {
+    height: 9px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+
+    margin: 0 auto;
+
+}
+
+
+/* Levels */
+
+.radios-to-slider .slider-level {
+    background-color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.radios-to-slider.medium .slider-level {
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -o-border-radius: 22px;
+    border-radius: 22px;
+    z-index: 2;
+}
+
+
+/* Labels */
+
+.slider-label {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    color: #5e5e5e;
+    text-align: center;
+}
+
+/*.slider-label-active {
+    font-weight: bold;
+}*/
+
+.radios-to-slider.medium .slider-label {
+    top: -40px;
+    color: #ffffff;
+    font-family: "Roboto Light";
+    font-size: 16px;
+    cursor: pointer;
+    /*width: 44px;*/
+}
+
+
+/* Slider bar */
+
+.slider-bar.transition-enabled {
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.radios-to-slider.medium .slider-bar {
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -o-border-radius: 22px;
+    border-radius: 22px;
+}
+
+
+/* Slider Knob */
+
+.slider-knob {
+    float: right;
+    background-color: #19b5fe;
+    position: relative;
+}
+
+.slider-knob:before {
+    display: block;
+    content: "";
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    background: #ffffff;
+    height: 5px;
+    width: 5px;
+
+    border-radius: 50%;
+}
+
+.radios-to-slider.medium .slider-knob {
+    width: 23px;
+    height: 23px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+}

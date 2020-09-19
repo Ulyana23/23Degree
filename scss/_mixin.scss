@@ -1,0 +1,71 @@
+@mixin button() {
+  border: none;
+  background: #19b5fe;
+  color: #ffffff;
+  font-size: 16px;
+  @include medium();
+
+  outline-style: none;
+
+  padding: 20px 50px;
+  border-radius: 30px;
+  transition: background-color .2s linear;
+
+  &:hover {
+    background: #1492cd;
+  }
+}
+
+@mixin title() {
+  @include light();
+  color: #363636;
+
+  position: relative;
+  margin-bottom: 60px;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 380px;
+    position: absolute;
+
+    background: #19b5fe;
+    bottom: -18px;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+}
+
+@mixin titleWhite() {
+  font-size: 36px;
+  @include light();
+  color: #ffffff;
+
+  position: relative;
+  margin-bottom: 40px;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 380px;
+    position: absolute;
+
+    background: #ffffff;
+    bottom: -18px;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+}
