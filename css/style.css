@@ -1473,6 +1473,18 @@ body {
   .calculator .calculator__items .result button {
     padding: 20px 30px;
   }
+  .calculator .calculator__items .rectangle.rectangle__bottom {
+    height: auto !important;
+  }
+  .calculator .calculator__items .rectangle.rectangle__bottom .buttons {
+    flex-wrap: wrap;
+  }
+  .calculator .calculator__items .rectangle.rectangle__bottom .buttons label {
+    width: 100%;
+  }
+  .calculator .calculator__items .rectangle.rectangle__bottom .buttons label + label {
+    margin-top: 10px;
+  }
 
   .portfolio .portfolio__inner .button__group label {
     font-size: 10px;
@@ -1546,6 +1558,9 @@ body {
   }
 }
 @media (max-width: 360px) {
+  .intro {
+    min-height: 100vh;
+  }
   .intro .header__inner .intro__logo .intro__logo--text {
     font-size: 22px;
     margin-left: 5px;
@@ -1576,19 +1591,38 @@ body {
   .intro .footnote {
     font-size: 10px;
   }
+  .intro .intro__swipe {
+    bottom: 30px;
+  }
+  .intro .intro__swipe .oval {
+    border: 1px #ffffff solid;
+    width: 15px;
+    height: 25px;
+  }
+  .intro .intro__swipe .oval .point {
+    width: 2px;
+    height: 2px;
+  }
+  .intro .intro__swipe .oval:before, .intro .intro__swipe .oval:after {
+    width: 9px;
+    height: 9px;
+    border-right: 1px #ffffff solid;
+    border-bottom: 1px #ffffff solid;
+    left: 2px;
+  }
 
   .calculator .calculator__inner .rectangle .title {
     font-size: 16px;
   }
   .calculator .calculator__inner .radios-to-slider.medium .slider-label {
-    font-size: 14px;
+    font-size: 13px;
     top: -30px;
   }
   .calculator .calculator__inner .rectangle {
     padding: 15px 10px;
   }
   .calculator .calculator__inner .rectangle.rectangle__bottom .buttons label span {
-    font-size: 12px;
+    font-size: 14px;
   }
   .calculator .calculator__inner .calculator__items .result .result__item .value {
     font-size: 30px;
@@ -1604,7 +1638,7 @@ body {
   }
 
   .process .process__inner .process__content .text p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .slider .slider__inner .slider__content .slider__nav .slider__item {
@@ -1707,9 +1741,6 @@ body {
     font-size: 11px !important;
   }
 
-  .calculator .calculator__inner .rectangle.rectangle__bottom .buttons label span {
-    font-size: 11px;
-  }
   .calculator .calculator__inner .calculator__items .result .result__item .value {
     font-size: 28px;
   }
@@ -1720,6 +1751,10 @@ body {
   }
   .portfolio .portfolio__inner .button__group label:not(:nth-child(2)) {
     padding-top: 9px;
+  }
+
+  .process .process__inner .process__content .text p {
+    font-size: 11px;
   }
 
   .quote .quote__inner blockquote .quote__text:before, .quote .quote__inner blockquote .quote__text:after {

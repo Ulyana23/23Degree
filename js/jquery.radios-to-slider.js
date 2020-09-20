@@ -91,7 +91,11 @@
                     }
 
                     if ($('.rectangle__top').outerWidth() <= 330) {
-                        $this.css('left', leftPos - 20 + 'px');
+                        $this.css('left', leftPos - 25 + 'px');
+                    }
+
+                    if ($('.rectangle__top').outerWidth() <= 290) {
+                        $this.css('left', leftPos - 15 + 'px');
                     }
                 }
 
