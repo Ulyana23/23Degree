@@ -638,10 +638,8 @@ body {
           display: none;
           @include light();
           color: #19b5fe;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          padding-left: 20px;
-          padding-right: 70px;
+          background: #ffffff;
+          padding: 10px 70px 10px 20px;
           border: 0;
           font-size: 14px;
           text-transform: uppercase;
