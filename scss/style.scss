@@ -20,7 +20,6 @@ body {
   background-size: cover;
 
   height: 100vh;
-  min-height: 750px;
   position: relative;
 
   &.shadow {
@@ -529,33 +528,130 @@ body {
     }
 
     .button__group {
-      text-transform: uppercase;
-      font-size: 14px;
+      display: inline-block;
+
       label {
-        background: none;
-        color: #19b5fe;
-        border: 1px #19b5fe solid;
-        box-shadow: none!important;
-        @include light();
+        margin: 0;
+        float: left;
 
-        padding: 15px 18px;
+        input {
+          display: none;
+        }
+
+        span {
+          display: inline-block;
+          border: 1px #19b5fe solid;
+          border-left: 0;
+          border-right: 0;
+          padding: 10px 30px;
+          cursor: pointer;
+          color: #19b5fe;
+          text-transform: uppercase;
+          font-size: 14px;
+          @include light();
+
+          position: relative;
+          transition: all .2s linear;
+
+          &:before {
+            display: block;
+            content: "";
+            position: absolute;
+
+            width: 1px;
+            height: 35px;
+            background: #19b5fe;
+            left: -1px;
+            top: 3px;
+
+            //transition: all .5s linear;
+          }
+        }
+
+        input:checked + span {
+          background: #19b5fe;
+          color: #ffffff;
+
+          &:before {
+            display: none;
+          }
+        }
+
+        span:hover {
+          background: #19b5fe;
+          color: #ffffff;
+
+          &:before {
+            display: none;
+          }
+        }
       }
 
-      label:first-child {
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
+      label + label {
+
       }
 
-      label:last-child {
-        border-bottom-right-radius: 20px;
+      label:last-child span {
         border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-right: 1px solid #19b5fe;
       }
 
-      .active,
-      label:hover {
-        background: #19b5fe;
-        color: #ffffff;
-        border: 1px #19b5fe solid;
+      label:first-child span {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-left: 1px solid #19b5fe;
+
+        &:before {
+          display: none;
+        }
+      }
+
+    }
+
+    .buttons {
+      .portfolio__select {
+        position: relative;
+        width: 280px;
+        display: none;
+        overflow: hidden;
+        border: #19b5fe 1px solid;
+        border-radius: 20px;
+
+        &:after {
+          display: block;
+          position: absolute;
+          content: "";
+
+          border-top: 1px solid #19b5fe;
+          border-right: 1px solid #19b5fe;
+          transform: rotate(135deg);
+
+          width: 10px;
+          height: 10px;
+
+          top: 12px;
+          right: 20px;
+        }
+
+        select {
+          display: none;
+          @include light();
+          color: #19b5fe;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 20px;
+          padding-right: 70px;
+          border: 0;
+          font-size: 14px;
+          text-transform: uppercase;
+
+          outline-style: none;
+
+          option {
+            @include light();
+          }
+        }
       }
     }
 
@@ -784,10 +880,11 @@ body {
         &::after {
           display: inline;
           position: absolute;
-          font-family: "Microsoft Himalaya";
-          font-size: 200px;
+          font-family: 'Playfair Display', serif;
+          font-size: 145px;
           color: #19b5fe;
           line-height: 0; /* Текст не занимает место */
+          font-weight: 700;
         }
 
         &::before {

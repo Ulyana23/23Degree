@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="SHORTCUT ICON" href="images/block_1/logo23.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
     <title>23Degree</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/jquery.radios-to-slider.css">
@@ -260,8 +261,21 @@
             <div class="portfolio__title text-center title-media">
                 <h3>Портфолио</h3>
             </div>
-            <div class="button__group text-center">
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <div class="buttons text-center">
+                <div class="button__group">
+                    <label>
+                        <input type="radio" name="portfolioOptions" id="p_option_1" checked><span>Все проекты</span></label>
+                    </label>
+                    <label>
+                        <input type="radio" name="portfolioOptions" id="p_option_2" checked><span>Экстерьеры</span></label>
+                    </label>
+                    <label>
+                        <input type="radio" name="portfolioOptions" id="p_option_3" checked><span>Жилые интерьеры</span></label>
+                    </label>
+                    <label>
+                        <input type="radio" name="portfolioOptions" id="p_option_4" checked><span>Общественные интерьеры</span></label>
+                    </label>
+                <!-- <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active">
                         <input type="radio" name="options2" id="option5" autocomplete="off" checked>Все проекты</label>
                     <label class="btn btn-secondary">
@@ -270,7 +284,18 @@
                         <input type="radio" name="options2" id="option7" autocomplete="off">Жилые интерьеры</label>
                     <label class="btn btn-secondary">
                         <input type="radio" name="options2" id="option8" autocomplete="off">Общественные интерьеры</label>
+                </div>  -->
                 </div>
+
+                <div class="portfolio__select">
+                    <select name="portfolioSelect">
+                        <option>Все проекты</option>
+                        <option>Экстерьеры</option>
+                        <option>Жилые интерьеры</option>
+                        <option>Общественные интерьеры</option>
+                    </select>
+                </div>
+
             </div>
             
             <div class="photos__group">

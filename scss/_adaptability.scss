@@ -48,6 +48,11 @@
 
 //###########--WIDTH_992px--#########
 @media (max-width: 992px) {
+  //--INTRO--
+  .intro {
+    min-height: 700px;
+  }
+
   //--SERVICES--
   .services {
     .services__inner {
@@ -94,10 +99,17 @@
   //--PORTFOLIO--
   .portfolio {
     .portfolio__inner {
-      .btn.btn-secondary {
-          &:nth-child(2) {
-            line-height: 48px;
+      .button__group {
+        label {
+          span {
+            font-size: 13px;
+            padding: 10px 25px;
+
+            &:before {
+              top: 2px;
+            }
           }
+        }
       }
     }
   }
@@ -107,7 +119,7 @@
     .better__inner {
       .better__item {
         .better__text {
-          font-size: 12px;
+          font-size: 13px;
         }
       }
     }
@@ -176,6 +188,7 @@
   }
   //--INTRO--
   .intro {
+    min-height: 715px;
     .intro__text {
       .intro__title {
         h1 {
@@ -271,15 +284,15 @@
   .portfolio {
     .portfolio__inner {
       .button__group {
-        .btn.btn-secondary {
-          &:nth-child(2) {
-            line-height: inherit;
-          }
-        }
+        display: none;
+      }
 
-        label {
-          font-size: 10px;
-          padding: 15px;
+      .buttons {
+        .portfolio__select {
+          display: inline-block;
+          select {
+            display: inline-block;
+          }
         }
       }
 
@@ -331,7 +344,7 @@
         .quote__text {
           &:before,
           &:after {
-            font-size: 180px;
+            font-size: 120px;
           }
 
           .title {
@@ -488,11 +501,7 @@
   //--PORTFOLIO--
   .portfolio {
     .portfolio__inner {
-      .btn.btn-secondary {
-        &:nth-child(2) {
-          line-height: 29.33px!important;
-        }
-      }
+
     }
   }
 
@@ -503,7 +512,7 @@
         .quote__text {
           &:before,
           &:after {
-            font-size: 120px;
+            font-size: 100px;
           }
 
           .title {
@@ -564,6 +573,7 @@
 
   //--INTRO--
   .intro {
+    min-height: 650px;
     .header__inner {
       .intro__logo {
         .intro__logo--image {
@@ -671,10 +681,8 @@
   .portfolio {
     .portfolio__inner {
       .button__group {
-
         label {
-          font-size: 10px;
-          padding: 10px;
+
         }
       }
     }
@@ -698,10 +706,6 @@
     .quote__inner {
       blockquote {
         .quote__text {
-          &:before,
-          &:after {
-            font-size: 120px;
-          }
 
           .title {
             font-size: 21px;
@@ -941,12 +945,11 @@
   //--PORTFOLIO--
   .portfolio {
     .portfolio__inner {
-      .button__group {
-
-        label {
-          font-size: 8px;
-          padding: 5px;
-          padding-top: 8px;
+      .buttons {
+        .portfolio__select {
+          select {
+            font-size: 13px;
+          }
         }
       }
     }
@@ -986,7 +989,7 @@
 
           &:before,
           &:after {
-            font-size: 100px;
+            font-size: 80px;
           }
 
           &:before {
@@ -1165,14 +1168,12 @@
   //--PORTFOLIO--
   .portfolio {
     .portfolio__inner {
-      .button__group {
+      .buttons {
+        .portfolio__select {
+          width: 245px;
 
-        label {
-          font-size: 7px;
-          padding: 6px;
-
-          &:not(:nth-child(2)) {
-            padding-top: 9px;
+          select {
+            font-size: 12px;
           }
         }
       }
@@ -1200,7 +1201,7 @@
 
           &:before,
           &:after {
-            font-size: 90px;
+            font-size: 60px;
           }
 
           &:before {
