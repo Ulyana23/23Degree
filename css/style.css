@@ -598,6 +598,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   outline-style: none;
+  -webkit-appearance: none;
 }
 .portfolio .portfolio__inner .buttons .portfolio__select select option {
   font-family: "Roboto", sans-serif;

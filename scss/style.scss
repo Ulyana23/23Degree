@@ -645,6 +645,7 @@ body {
           text-transform: uppercase;
 
           outline-style: none;
+          -webkit-appearance: none;
 
           option {
             @include light();
@@ -755,6 +756,8 @@ body {
 //#################################
 .slider {
   background: #f5f9fa;
+
+
   .slider__inner {
     padding: 65px 0;
 
