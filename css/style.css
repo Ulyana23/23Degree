@@ -253,6 +253,7 @@ body {
   bottom: 40px;
   left: 50%;
   transform: translate(-50%, 0);
+  cursor: pointer;
 }
 .intro .intro__swipe .oval {
   border: 1.5px #ffffff solid;
@@ -272,6 +273,10 @@ body {
   height: 3px;
   background: #ffffff;
   border-radius: 50%;
+  transition: top 0.1s ease;
+}
+.intro .intro__swipe .oval .point.active {
+  top: 70%;
 }
 .intro .intro__swipe .oval:after, .intro .intro__swipe .oval:before {
   display: block;
@@ -283,12 +288,19 @@ body {
   border-bottom: 1.5px #ffffff solid;
   left: 1px;
   transform: rotate(45deg);
+  transition: bottom 0.2s ease;
 }
 .intro .intro__swipe .oval:before {
   bottom: -10px;
 }
 .intro .intro__swipe .oval:after {
   bottom: -20px;
+}
+.intro .intro__swipe .oval.active:before {
+  bottom: -15px;
+}
+.intro .intro__swipe .oval.active:after {
+  bottom: -25px;
 }
 
 .services .services__inner {
@@ -1158,7 +1170,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   background: #24241f;
   color: #ffffff;
-  transition: right ease 0.2s;
+  transition: right ease 0.5s;
 }
 .menu.show {
   right: 0;
@@ -1172,7 +1184,7 @@ body {
 .menu .menu__inner .menu__item {
   padding-bottom: 15px;
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: opacity 1.5s ease;
 }
 .menu .menu__inner .menu__item a {
   color: #ffffff;

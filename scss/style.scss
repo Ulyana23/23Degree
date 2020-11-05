@@ -294,6 +294,8 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
 
+    cursor: pointer;
+
 
     .swipe__inner {
       //margin-top: 20px;
@@ -321,6 +323,11 @@ body {
         background: #ffffff;
 
         border-radius: 50%;
+        transition: top .1s ease;
+
+        &.active {
+          top: 70%;
+        }
       }
 
       &:after, &:before {
@@ -335,6 +342,7 @@ body {
 
         left: 1px;
         transform: rotate(45deg);
+        transition: bottom .2s ease;
 
       }
 
@@ -344,6 +352,14 @@ body {
 
       &:after {
         bottom: -20px;
+      }
+
+      &.active:before {
+        bottom: -15px;
+      }
+
+      &.active:after {
+        bottom: -25px;
       }
     }
   }
@@ -1209,7 +1225,7 @@ body {
   background: #24241f;
   color: #ffffff;
 
-  transition: right ease 0.2s;
+  transition: right ease 0.5s;
 
   &.show {
     right: 0;
@@ -1227,7 +1243,7 @@ body {
     .menu__item {
       padding-bottom: 15px;
       opacity: 0;
-      transition: opacity 1s ease;
+      transition: opacity 1.5s ease;
 
       a {
         color: #ffffff;
