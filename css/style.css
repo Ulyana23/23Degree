@@ -26,6 +26,7 @@ body {
 }
 .intro .header__inner .intro__logo {
   display: inline-block;
+  text-decoration: none;
 }
 .intro .header__inner .intro__logo .intro__logo--text {
   display: inline-block;
