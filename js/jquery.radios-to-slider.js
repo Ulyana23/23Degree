@@ -217,9 +217,10 @@
                 var $this = $(this),
                     val = $this.attr('data-value'),
                     radioId = $this.attr('data-radio'),
-                    radioElement = $bearer.find('#' + radioId);
+                    radioElement = $('#' + radioId);
 
                 radioElement.prop('checked', true);
+                radioElement.click();
 
                 if (slider.options.onSelect) {
                     slider.options.onSelect(radioElement, [
@@ -234,6 +235,8 @@
                 slider.setSlider();
 
                 $bearer.trigger('radiochange');
+
+                //radioElement.prop('checked', true);
             });
 
             $inputs.on('change', function() {

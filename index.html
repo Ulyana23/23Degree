@@ -21,11 +21,11 @@
 
 <div class="menu">
     <div class="menu__inner">
-        <div class="menu__item"><a href="#">Наши Услуги</a></div>
-        <div class="menu__item"><a href="#">Калькулятор</a></div>
-        <div class="menu__item"><a href="#">Портфолио</a></div>
-        <div class="menu__item"><a href="#">Наша команда</a></div>
-        <div class="menu__item"><a href="#">Блог</a></div>
+        <div class="menu__item"><a href="#" data-scroll=".services">Наши Услуги</a></div>
+        <div class="menu__item"><a href="#" data-scroll=".calculator">Калькулятор</a></div>
+        <div class="menu__item"><a href="#" data-scroll=".portfolio">Портфолио</a></div>
+        <div class="menu__item"><a href="#" data-scroll=".team">Наша команда</a></div>
+        <div class="menu__item"><a href="#" data-scroll=".blog">Блог</a></div>
     </div>
 
     <div class="menu__close"><div class="menu__close__inner"></div></div>
@@ -99,7 +99,7 @@
             </div>
         </div>
 
-        <div class="intro__swipe">
+        <div class="intro__swipe" data-scroll=".services">
             <div class="swipe__inner">
                 <div class="oval">
                     <div class="point">
@@ -203,22 +203,22 @@
                             <div class="radio__inner" style="margin-top: 50px">
                                 <div id="radios">
                                     <label for="option1" class="start">100м&sup2;</label>
-                                    <input id="option1" name="options" type="radio">
+                                    <input id="option1" name="options" type="radio" value="100">
                                     <label for="option2">10&nbsp;000м&sup2;</label>
-                                    <input id="option2" name="options" type="radio" checked="checked">
+                                    <input id="option2" name="options" type="radio" checked value="10 000">
                                     <label for="option3">250&nbsp;000м&sup2;</label>
-                                    <input id="option3" name="options" type="radio">
+                                    <input id="option3" name="options" type="radio" value="250 000">
                                     <label for="option4" class="end">500&nbsp;000м&sup2;</label>
-                                    <input id="option4" name="options" type="radio">
+                                    <input id="option4" name="options" type="radio" value="500 000">
                                 </div>
                             </div>
                         </div>
                         <div class="rectangle rectangle__bottom">
                             <div class="title">Выберите пакет:</div>
                             <div class="buttons">
-                                <label><input type="radio" name="button"><span>Light</span></label>
-                                <label><input type="radio" name="button"><span>Medium</span></label>
-                                <label><input type="radio" name="button"><span>Full</span></label>
+                                <label><input type="radio" name="button" value="light"><span>Light</span></label>
+                                <label><input type="radio" name="button" value="medium" checked><span>Medium</span></label>
+                                <label><input type="radio" name="button" value="full"><span>Full</span></label>
                             </div>
                         </div>
                     </div>
@@ -226,17 +226,17 @@
                         <div class="result">
                             <div class="result__item">
                                 <div class="name">Площадь помещения:</div>
-                                <div class="value">1 000м&sup2;</div>
+                                <div class="value" id="square">10 000м&sup2;</div>
                             </div>
 
                             <div class="result__item">
                                 <div class="name">Средняя стоимость м&sup2;:</div>
-                                <div class="value">4 850 тг.</div>
+                                <div class="value" id="cost">4 850 тг.</div>
                             </div>
 
                             <div class="result__item">
                                 <div class="name">Средняя стоимость объекта:</div>
-                                <div class="value">48 500 тг.</div>
+                                <div class="value" id="object_cost">48 500 000 тг.</div>
                             </div>
 
                             <button>Получить консультацию специалиста</button>
@@ -254,7 +254,6 @@
 </div>
 
 <!-- PORTFOLIO -->
-
 <div class="portfolio">
     <div class="container">
         <div class="portfolio__inner">
@@ -264,16 +263,16 @@
             <div class="buttons text-center">
                 <div class="button__group">
                     <label>
-                        <input type="radio" name="portfolioOptions" id="p_option_1" checked><span>Все проекты</span></label>
+                        <input type="radio" name="portfolioOptions" id="p_option_1" checked data-portfolio="1"><span>Все проекты</span></label>
                     </label>
                     <label>
-                        <input type="radio" name="portfolioOptions" id="p_option_2" checked><span>Экстерьеры</span></label>
+                        <input type="radio" name="portfolioOptions" id="p_option_2" data-portfolio="2"><span>Экстерьеры</span></label>
                     </label>
                     <label>
-                        <input type="radio" name="portfolioOptions" id="p_option_3" checked><span>Жилые интерьеры</span></label>
+                        <input type="radio" name="portfolioOptions" id="p_option_3" data-portfolio="3"><span>Жилые интерьеры</span></label>
                     </label>
                     <label>
-                        <input type="radio" name="portfolioOptions" id="p_option_4" checked><span>Общественные интерьеры</span></label>
+                        <input type="radio" name="portfolioOptions" id="p_option_4" data-portfolio="4"><span>Общественные интерьеры</span></label>
                     </label>
                 <!-- <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active">
@@ -289,10 +288,10 @@
 
                 <div class="portfolio__select">
                     <select name="portfolioSelect">
-                        <option>Все проекты</option>
-                        <option>Экстерьеры</option>
-                        <option>Жилые интерьеры</option>
-                        <option>Общественные интерьеры</option>
+                        <option data-portfolio="1" selected>Все проекты</option>
+                        <option data-portfolio="2">Экстерьеры</option>
+                        <option data-portfolio="3">Жилые интерьеры</option>
+                        <option data-portfolio="4">Общественные интерьеры</option>
                     </select>
                 </div>
 
@@ -300,14 +299,12 @@
             
             <div class="photos__group">
                 <div class="row">
-                    <div class="col-12 col-md-4"><img src="images/block_4/photo1.jpg" alt=""></div>
-                    <div class="col-12 col-md-4"><img src="images/block_4/photo2.jpg" alt=""></div>
-                    <div class="col-12 col-md-4"><img src="images/block_4/photo3.jpg" alt=""></div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4"><img src="images/block_4/photo4.jpg" alt=""></div>
-                    <div class="col-12 col-md-4"><img src="images/block_4/photo5.jpg" alt=""></div>
-                    <div class="col-12 col-md-4"><img src="images/block_4/photo6.jpg" alt=""></div>
+                    <div class="col-12 col-md-4" data-portfolio-type="3"><img src="images/block_4/photo1.jpg" alt=""></div>
+                    <div class="col-12 col-md-4" data-portfolio-type="4"><img src="images/block_4/photo2.jpg" alt=""></div>
+                    <div class="col-12 col-md-4" data-portfolio-type="3"><img src="images/block_4/photo3.jpg" alt=""></div>
+                    <div class="col-12 col-md-4" data-portfolio-type="4"><img src="images/block_4/photo4.jpg" alt=""></div>
+                    <div class="col-12 col-md-4" data-portfolio-type="3"><img src="images/block_4/photo5.jpg" alt=""></div>
+                    <div class="col-12 col-md-4" data-portfolio-type="2"><img src="images/block_4/photo6.jpg" alt=""></div>
                 </div>
             </div>
         </div>

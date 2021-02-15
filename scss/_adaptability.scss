@@ -172,6 +172,20 @@
       }
     }
   }
+
+  //--MENU--
+  .menu {
+    width: 100%;
+    height: auto;
+    top: -100%;
+    transition: top ease 0.5s;
+    right: 0;
+
+
+    &.show {
+      top: 0;
+    }
+  }
 }
 
 

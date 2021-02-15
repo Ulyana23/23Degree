@@ -619,7 +619,7 @@ body {
 .portfolio .portfolio__inner .photos__group img {
   width: 100%;
 }
-.portfolio .portfolio__inner .photos__group .row {
+.portfolio .portfolio__inner .photos__group .col-12 {
   margin-top: 30px;
 }
 
@@ -1306,6 +1306,17 @@ body {
   }
   .footer .footer__inner .footer__bottom .creator .text {
     font-size: 13px;
+  }
+
+  .menu {
+    width: 100%;
+    height: auto;
+    top: -100%;
+    transition: top ease 0.5s;
+    right: 0;
+  }
+  .menu.show {
+    top: 0;
   }
 }
 @media (max-width: 767px) {
